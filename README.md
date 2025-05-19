@@ -34,4 +34,42 @@ Este portfólio foi criado utilizando as tecnologias básicas da web, sem framew
 ---
 
 ## 📂 Estrutura do Projeto
+/meu-portfolio
+│
+├── index.html # Página principal (Sobre Mim)
+├── formacao.html # Página de Formação
+├── portfolio.html # Página de Portfólio
+├── contato.html # Página de Contato
+│
+├── css/
+│ └── estilo.css # Estilos do site
+│
+├── js/
+└── script.js # Scripts para animações e validações
 
+---
+
+## 🌐 Acesse o Site
+
+Você pode acessar meu portfólio online através do link:  
+🔗 [Leonardo Miralles - Portfólio Pessoal](https://sellarim.github.io/meu-portfolio/)
+
+---
+
+## 📧 Contato
+
+Se você quiser entrar em contato, me encontre nas redes sociais:
+
+- [LinkedIn](https://linkedin.com/in/leo-miralles)
+- [Instagram](https://instagram.com/seuinstagram)
+- ✉️ E-mail: leonardomiralles@hotmail.com
+
+---
+
+## 📝 Licença
+
+Este projeto é de uso pessoal e não deve ser reproduzido sem autorização.
+
+---
+
+Obrigado por visitar meu portfólio! 🚀
