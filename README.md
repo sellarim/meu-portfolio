@@ -33,22 +33,6 @@ Este portfólio foi criado utilizando as tecnologias básicas da web, sem framew
 
 ---
 
-## 📂 Estrutura do Projeto
-/meu-portfolio
-│
-├── index.html # Página principal (Sobre Mim)
-├── formacao.html # Página de Formação
-├── portfolio.html # Página de Portfólio
-├── contato.html # Página de Contato
-│
-├── css/
-│ └── estilo.css # Estilos do site
-│
-├── js/
-└── script.js # Scripts para animações e validações
-
----
-
 ## 🌐 Acesse o Site
 
 Você pode acessar meu portfólio online através do link:  
