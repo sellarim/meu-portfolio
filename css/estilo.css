@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Seções do site */
+section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Menu onde está o usuário */
+nav ul li a.active {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Estilo para a seção "Sobre Mim" */
+section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Destaque para palavras importantes */
+.highlight {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Espaçamento e animação leve */
+section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Títulos das seções */
+section h2 {
+    font-size: 2.2em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Subtítulos */
+section h3 {
+    font-size: 1.8em;
+    color: #555;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+/* Listas */
+section ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+section ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Destaque */
+.highlight {
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+/* Estilo para o portfólio */
+.project-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.project-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+/* Estilos para a seção de contato */
+section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+section form label {
+    font-weight: bold;
+    color: #333;
+}
+
+section form input, 
+section form textarea {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+section form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+section form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    max-width: 200px;
+}
+
+section form button:hover {
+    background-color: #0056b3;
+}
+
+/* Redes sociais */
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}

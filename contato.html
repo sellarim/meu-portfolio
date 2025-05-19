@@ -6,6 +6,7 @@
     <title>Contato</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
+<!-- MENU -->
 <body>
     <header>
         <h1>Leonardo Miralles</h1>
@@ -18,25 +19,36 @@
             </ul>
         </nav>
     </header>
-    
+    <!-- TEXTO -->
     <section>
-        <h2>Contato</h2>
+        <h2>📞 Contato</h2>
+        
+        <p>Se você quiser se conectar, tirar dúvidas ou apenas trocar ideias, fique à vontade para entrar em contato. Vou adorar conversar com você!</p>
+        <p>Email para contato: <span class="highlight"> leonardomiralles@hotmail.com</span></p>
+        
         <form action="mailto:leonardomiralles@hotmail.com" method="post" enctype="text/plain">
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
             
             <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
             
             <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
             
             <button type="submit">Enviar</button>
         </form>
+        
+        <div class="social-links">
+            <a href="https://linkedin.com/in/leo-miralles" target="_blank" class="social-link">🔗 LinkedIn</a>
+            <a href="https://instagram.com/leonardomiralless" target="_blank" class="social-link">📸 Instagram</a>
+            <a href="mailto:leonardomiralles@hotmail.com" class="social-link">✉️ E-mail</a>
+        </div>
     </section>
-    
+    <!-- RODAPÉ -->
     <footer>
         <p>© 2025 Leonardo Miralles</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
